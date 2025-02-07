@@ -1,0 +1,11 @@
+C:\ProyectosNet2025\MasterNet\src\MasterNet.Domain\bin\Debug\net9.0\MasterNet.Domain.deps.json
+C:\ProyectosNet2025\MasterNet\src\MasterNet.Domain\bin\Debug\net9.0\MasterNet.Domain.dll
+C:\ProyectosNet2025\MasterNet\src\MasterNet.Domain\bin\Debug\net9.0\MasterNet.Domain.pdb
+C:\ProyectosNet2025\MasterNet\src\MasterNet.Domain\obj\Debug\net9.0\MasterNet.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectosNet2025\MasterNet\src\MasterNet.Domain\obj\Debug\net9.0\MasterNet.Domain.AssemblyInfoInputs.cache
+C:\ProyectosNet2025\MasterNet\src\MasterNet.Domain\obj\Debug\net9.0\MasterNet.Domain.AssemblyInfo.cs
+C:\ProyectosNet2025\MasterNet\src\MasterNet.Domain\obj\Debug\net9.0\MasterNet.Domain.csproj.CoreCompileInputs.cache
+C:\ProyectosNet2025\MasterNet\src\MasterNet.Domain\obj\Debug\net9.0\MasterNet.Domain.dll
+C:\ProyectosNet2025\MasterNet\src\MasterNet.Domain\obj\Debug\net9.0\refint\MasterNet.Domain.dll
+C:\ProyectosNet2025\MasterNet\src\MasterNet.Domain\obj\Debug\net9.0\MasterNet.Domain.pdb
+C:\ProyectosNet2025\MasterNet\src\MasterNet.Domain\obj\Debug\net9.0\ref\MasterNet.Domain.dll
