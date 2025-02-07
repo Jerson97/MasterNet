@@ -13,3 +13,4 @@ C:\ProyectosNet2025\MasterNet\src\MasterNet.Persistence\obj\Debug\net9.0\MasterN
 C:\ProyectosNet2025\MasterNet\src\MasterNet.Persistence\obj\Debug\net9.0\refint\MasterNet.Persistence.dll
 C:\ProyectosNet2025\MasterNet\src\MasterNet.Persistence\obj\Debug\net9.0\MasterNet.Persistence.pdb
 C:\ProyectosNet2025\MasterNet\src\MasterNet.Persistence\obj\Debug\net9.0\ref\MasterNet.Persistence.dll
+C:\ProyectosNet2025\MasterNet\src\MasterNet.Persistence\obj\Debug\net9.0\MasterNet.Persistence.sourcelink.json

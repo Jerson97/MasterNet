@@ -23,3 +23,4 @@ C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\obj\Debug\net9.0\refint\Maste
 C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\obj\Debug\net9.0\MasterNet.WebApi.pdb
 C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\obj\Debug\net9.0\MasterNet.WebApi.genruntimeconfig.cache
 C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\obj\Debug\net9.0\ref\MasterNet.WebApi.dll
+C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\obj\Debug\net9.0\MasterNet.WebApi.sourcelink.json

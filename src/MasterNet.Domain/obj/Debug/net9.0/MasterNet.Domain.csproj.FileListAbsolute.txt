@@ -9,3 +9,4 @@ C:\ProyectosNet2025\MasterNet\src\MasterNet.Domain\obj\Debug\net9.0\MasterNet.Do
 C:\ProyectosNet2025\MasterNet\src\MasterNet.Domain\obj\Debug\net9.0\refint\MasterNet.Domain.dll
 C:\ProyectosNet2025\MasterNet\src\MasterNet.Domain\obj\Debug\net9.0\MasterNet.Domain.pdb
 C:\ProyectosNet2025\MasterNet\src\MasterNet.Domain\obj\Debug\net9.0\ref\MasterNet.Domain.dll
+C:\ProyectosNet2025\MasterNet\src\MasterNet.Domain\obj\Debug\net9.0\MasterNet.Domain.sourcelink.json
