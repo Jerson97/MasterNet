@@ -14,3 +14,5 @@ C:\ProyectosNet2025\MasterNet\src\MasterNet.Persistence\obj\Debug\net9.0\refint\
 C:\ProyectosNet2025\MasterNet\src\MasterNet.Persistence\obj\Debug\net9.0\MasterNet.Persistence.pdb
 C:\ProyectosNet2025\MasterNet\src\MasterNet.Persistence\obj\Debug\net9.0\ref\MasterNet.Persistence.dll
 C:\ProyectosNet2025\MasterNet\src\MasterNet.Persistence\obj\Debug\net9.0\MasterNet.Persistence.sourcelink.json
+C:\ProyectosNet2025\MasterNet\src\MasterNet.Persistence\bin\Debug\net9.0\MasterNet.Persistence.runtimeconfig.json
+C:\ProyectosNet2025\MasterNet\src\MasterNet.Persistence\obj\Debug\net9.0\MasterNet.Persistence.genruntimeconfig.cache
