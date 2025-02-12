@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0I+CyEO0wknKMiF9Rl28fahp33EUDbPSOx1G6+T4JoXLBQ0RtmMLYvcCqOo5D1i5iaNuEtvJPVlRzqwHb4GxNQ==",
+  "dgSpecHash": "GrQaA9+6r6ncX9Y9ljUMGOODyRgvtP6yILaR+et1JcmC4/3q/U4kiSPm4I/Ks9Yz+ZOSd5ODUcaeKr5drIOsFg==",
   "success": true,
   "projectFilePath": "C:\\ProyectosNet2025\\MasterNet\\src\\MasterNet.WebApi\\MasterNet.WebApi.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,9 @@
     "C:\\Users\\USUARIO\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\bogus\\35.4.0\\bogus.35.4.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\9.0.0-preview.2.24128.4\\microsoft.aspnetcore.cryptography.internal.9.0.0-preview.2.24128.4.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\9.0.0-preview.2.24128.4\\microsoft.aspnetcore.cryptography.keyderivation.9.0.0-preview.2.24128.4.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\9.0.0-preview.2.24128.4\\microsoft.aspnetcore.identity.entityframeworkcore.9.0.0-preview.2.24128.4.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.4\\microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.codeanalysis.common\\4.8.0\\microsoft.codeanalysis.common.4.8.0.nupkg.sha512",
@@ -29,6 +32,8 @@
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0-preview.2.24128.5\\microsoft.extensions.dependencyinjection.9.0.0-preview.2.24128.5.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0-preview.2.24128.5\\microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.2.24128.5.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.extensions.dependencymodel\\9.0.0-preview.2.24128.5\\microsoft.extensions.dependencymodel.9.0.0-preview.2.24128.5.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.extensions.identity.core\\9.0.0-preview.2.24128.4\\microsoft.extensions.identity.core.9.0.0-preview.2.24128.4.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.extensions.identity.stores\\9.0.0-preview.2.24128.4\\microsoft.extensions.identity.stores.9.0.0-preview.2.24128.4.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.extensions.logging\\9.0.0-preview.2.24128.5\\microsoft.extensions.logging.9.0.0-preview.2.24128.5.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.0-preview.2.24128.5\\microsoft.extensions.logging.abstractions.9.0.0-preview.2.24128.5.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.extensions.options\\9.0.0-preview.2.24128.5\\microsoft.extensions.options.9.0.0-preview.2.24128.5.nupkg.sha512",
