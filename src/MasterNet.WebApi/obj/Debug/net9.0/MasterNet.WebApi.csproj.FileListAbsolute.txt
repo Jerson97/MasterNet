@@ -137,3 +137,12 @@ C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\bin\Debug\net9.0\tr\Microsoft
 C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\bin\Debug\net9.0\AutoMapper.dll
+C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\bin\Debug\net9.0\FluentValidation.dll
+C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\bin\Debug\net9.0\FluentValidation.AspNetCore.dll
+C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\bin\Debug\net9.0\MediatR.dll
+C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\bin\Debug\net9.0\MediatR.Contracts.dll
+C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\bin\Debug\net9.0\MasterNet.Application.dll
+C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\bin\Debug\net9.0\MasterNet.Application.pdb
+C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\obj\Debug\net9.0\MasterNet.WebApi.MvcApplicationPartsAssemblyInfo.cs

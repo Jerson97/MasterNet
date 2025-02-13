@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "MasterNet.WebApi.Controllers.CursosController",
+    "Method": "CursoCreate",
+    "RelativePath": "api/cursos/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MasterNet.Application.Cursos.CursosCreate.CursoCreateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Master.WebApi.Controllers.DemoController",
+    "Method": "GetNombre",
+    "RelativePath": "Demo/getstring",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

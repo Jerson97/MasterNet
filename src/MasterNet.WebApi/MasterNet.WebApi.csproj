@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MasterNet.Persistence\MasterNet.Persistence.csproj" />
+    <ProjectReference Include="..\MasterNet.Application\MasterNet.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>

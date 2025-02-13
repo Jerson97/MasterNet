@@ -266,10 +266,10 @@ public class MasterNetDbContext : IdentityDbContext<AppUser>
         return Tuple.Create(cursos.ToArray(), precios.ToArray(), instructores.ToArray());
     }
 
-    public DbSet<Curso>? Curso { get; set; }
+    public DbSet<Curso>? Cursos { get; set; }
     public DbSet<Calificacion>? Calificacion { get; set; }
-    public DbSet<Instructor>? Instructor { get; set; }
-    public DbSet<Precio>? Precio { get; set; }
+    public DbSet<Instructor>? Instructores { get; set; }
+    public DbSet<Precio>? Precios { get; set; }
 
 }
 
