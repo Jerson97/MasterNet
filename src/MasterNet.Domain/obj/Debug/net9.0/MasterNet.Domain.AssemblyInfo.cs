@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MasterNet.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98ede5a61c8b5f5ddb45eaf44453675e1c0103b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9afcaf7a3204f014673863c5bdb525478eca869")]
 [assembly: System.Reflection.AssemblyProductAttribute("MasterNet.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MasterNet.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

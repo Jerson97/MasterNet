@@ -1,3 +1,4 @@
+using FluentValidation;
 using MasterNet.Application.Core;
 using MasterNet.Domain;
 using MasterNet.Persistence;
@@ -33,7 +34,14 @@ public class CursosCreateCommand
             var resultado = await _context.SaveChangesAsync() > 0;
             return resultado ? Result<Guid>.Success(curso.Id)
                              : Result<Guid>.Failure("No se pudo insertal el curso");
-            return Result<Guid>.Success(curso.Id);
+        }
+    }
+
+    public class CursosCreateCommandRequestValidator : AbstractValidator<CursoCreateCommandRequest>
+    {
+        public CursosCreateCommandRequestValidator()
+        {
+            RuleFor(x => x.CursoCreateRequest).SetValidator(new CursoCreateValidator());
         }
     }
 }
