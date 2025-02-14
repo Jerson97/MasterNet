@@ -146,3 +146,6 @@ C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\bin\Debug\net9.0\MediatR.Cont
 C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\bin\Debug\net9.0\MasterNet.Application.dll
 C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\bin\Debug\net9.0\MasterNet.Application.pdb
 C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\obj\Debug\net9.0\MasterNet.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\bin\Debug\net9.0\CsvHelper.dll
+C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\bin\Debug\net9.0\MasterNet.Infrastructure.dll
+C:\ProyectosNet2025\MasterNet\src\MasterNet.WebApi\bin\Debug\net9.0\MasterNet.Infrastructure.pdb

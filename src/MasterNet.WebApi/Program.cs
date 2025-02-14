@@ -1,4 +1,6 @@
 using MasterNet.Application;
+using MasterNet.Application.Interface;
+using MasterNet.Infrastructure.Reports;
 using MasterNet.Persistence;
 using MasterNet.Persistence.Models;
 using MasterNet.WebApi.Extensions;
@@ -10,13 +12,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddApplication();
 builder.Services.AddPersistence(builder.Configuration);
 
-
-// builder.Services.AddDbContext<MasterNetDbContext>(options =>
-//     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
-//     b => b.MigrationsAssembly(typeof(MasterNetDbContext).Assembly.FullName)
-//     )
-// );
-
+//builder.Services.AddScoped<IReportService, ReportService>();
+builder.Services.AddScoped(typeof(IReportService<>), typeof(ReportService<>));
 
 builder.Services.AddControllers();
 
