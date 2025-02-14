@@ -1,3 +1,4 @@
+using MasterNet.Application.Core;
 using MasterNet.Domain;
 using MasterNet.Persistence;
 using MediatR;
@@ -6,9 +7,9 @@ namespace MasterNet.Application.Cursos.CursosCreate;
 
 public class CursosCreateCommand
 {
-    public record CursoCreateCommandRequest(CursoCreateRequest CursoCreateRequest) : IRequest<Guid>;
+    public record CursoCreateCommandRequest(CursoCreateRequest CursoCreateRequest) : IRequest<Result<Guid>>;
 
-    internal class CursosCreateCommandHandler : IRequestHandler<CursoCreateCommandRequest, Guid>
+    internal class CursosCreateCommandHandler : IRequestHandler<CursoCreateCommandRequest, Result<Guid>>
     {
         private readonly MasterNetDbContext _context;
 
@@ -17,7 +18,7 @@ public class CursosCreateCommand
             _context = context;
         }
 
-        public async Task<Guid> Handle(CursoCreateCommandRequest request, CancellationToken cancellationToken)
+        public async Task<Result<Guid>> Handle(CursoCreateCommandRequest request, CancellationToken cancellationToken)
         {
             var curso = new Curso(){
                 Id = Guid.NewGuid(),
@@ -28,9 +29,11 @@ public class CursosCreateCommand
             };
 
             _context.Add(curso);
-            await _context.SaveChangesAsync();
 
-            return curso.Id;
+            var resultado = await _context.SaveChangesAsync() > 0;
+            return resultado ? Result<Guid>.Success(curso.Id)
+                             : Result<Guid>.Failure("No se pudo insertal el curso");
+            return Result<Guid>.Success(curso.Id);
         }
     }
 }
