@@ -1,6 +1,6 @@
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
-using MasterNet.Application.Calificaiones.GetCalificaciones;
+using MasterNet.Application.Calificaciones.GetCalificaciones;
 using MasterNet.Application.Core;
 using MasterNet.Application.Instructores.GetInstructores;
 using MasterNet.Application.Photos.GetPhoto;

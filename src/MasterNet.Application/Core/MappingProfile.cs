@@ -1,5 +1,5 @@
 using AutoMapper;
-using MasterNet.Application.Calificaiones.GetCalificaciones;
+using MasterNet.Application.Calificaciones.GetCalificaciones;
 using MasterNet.Application.Cursos.GetCurso;
 using MasterNet.Application.Instructores.GetInstructores;
 using MasterNet.Application.Photos.GetPhoto;

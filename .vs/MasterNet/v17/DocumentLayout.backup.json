@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\ProyectosNet2025\\MasterNet\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B940753C-AF8C-44E9-A183-A07FED807A11}|src\\MasterNet.Infrastructure\\MasterNet.Infrastructure.csproj|c:\\proyectosnet2025\\masternet\\src\\masternet.infrastructure\\reports\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B940753C-AF8C-44E9-A183-A07FED807A11}|src\\MasterNet.Infrastructure\\MasterNet.Infrastructure.csproj|solutionrelative:src\\masternet.infrastructure\\reports\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DE15EDE-5243-4779-9C3F-381B484E385A}|src\\MasterNet.Application\\MasterNet.Application.csproj|c:\\proyectosnet2025\\masternet\\src\\masternet.application\\interfaces\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DE15EDE-5243-4779-9C3F-381B484E385A}|src\\MasterNet.Application\\MasterNet.Application.csproj|solutionrelative:src\\masternet.application\\interfaces\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7DE15EDE-5243-4779-9C3F-381B484E385A}|src\\MasterNet.Application\\MasterNet.Application.csproj|c:\\proyectosnet2025\\masternet\\src\\masternet.application\\cursos\\create\\cursocreatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7DE15EDE-5243-4779-9C3F-381B484E385A}|src\\MasterNet.Application\\MasterNet.Application.csproj|solutionrelative:src\\masternet.application\\cursos\\create\\cursocreatecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\ProyectosNet2025\\MasterNet\\src\\MasterNet.Infrastructure\\Reports\\ReportService.cs",
+              "RelativeDocumentMoniker": "src\\MasterNet.Infrastructure\\Reports\\ReportService.cs",
+              "ToolTip": "C:\\ProyectosNet2025\\MasterNet\\src\\MasterNet.Infrastructure\\Reports\\ReportService.cs",
+              "RelativeToolTip": "src\\MasterNet.Infrastructure\\Reports\\ReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T17:05:43.971Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -38,7 +59,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "IReportService.cs",
+              "DocumentMoniker": "C:\\ProyectosNet2025\\MasterNet\\src\\MasterNet.Application\\Interfaces\\IReportService.cs",
+              "RelativeDocumentMoniker": "src\\MasterNet.Application\\Interfaces\\IReportService.cs",
+              "ToolTip": "C:\\ProyectosNet2025\\MasterNet\\src\\MasterNet.Application\\Interfaces\\IReportService.cs",
+              "RelativeToolTip": "src\\MasterNet.Application\\Interfaces\\IReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T17:05:03.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CursoCreateRequest.cs",
               "DocumentMoniker": "C:\\ProyectosNet2025\\MasterNet\\src\\MasterNet.Application\\Cursos\\Create\\CursoCreateRequest.cs",
               "RelativeDocumentMoniker": "src\\MasterNet.Application\\Cursos\\Create\\CursoCreateRequest.cs",
@@ -46,12 +80,11 @@
               "RelativeToolTip": "src\\MasterNet.Application\\Cursos\\Create\\CursoCreateRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T00:58:29.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T00:58:29.674Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CursoCreateCommand.cs",
               "DocumentMoniker": "C:\\ProyectosNet2025\\MasterNet\\src\\MasterNet.Application\\Cursos\\Create\\CursoCreateCommand.cs",
               "RelativeDocumentMoniker": "src\\MasterNet.Application\\Cursos\\Create\\CursoCreateCommand.cs",
@@ -64,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CursosController.cs",
               "DocumentMoniker": "C:\\ProyectosNet2025\\MasterNet\\src\\MasterNet.WebApi\\Controllers\\CursosController.cs",
               "RelativeDocumentMoniker": "src\\MasterNet.WebApi\\Controllers\\CursosController.cs",
@@ -72,8 +105,7 @@
               "RelativeToolTip": "src\\MasterNet.WebApi\\Controllers\\CursosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T00:49:37.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T00:49:37.568Z"
             }
           ]
         },
