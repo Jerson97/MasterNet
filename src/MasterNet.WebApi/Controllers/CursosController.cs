@@ -1,13 +1,17 @@
+using System.Runtime.InteropServices;
 using Bogus.DataSets;
 using MasterNet.Application.Core;
 using MasterNet.Application.Cursos.CursosCreate;
 using MasterNet.Application.Cursos.GetCursos;
+using MasterNet.Application.Cursos.Update;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using static MasterNet.Application.Cursos.CursoReporteExcel.CursoReporteExcelQuery;
 using static MasterNet.Application.Cursos.CursosCreate.CursosCreateCommand;
+using static MasterNet.Application.Cursos.Delete.CursoDeleteCommand;
 using static MasterNet.Application.Cursos.GetCurso.GetCursoQuery;
 using static MasterNet.Application.Cursos.GetCursos.GetCursosQuery;
+using static MasterNet.Application.Cursos.Update.CursoUpdateCommand;
 
 namespace MasterNet.WebApi.Controllers;
 
@@ -37,6 +41,24 @@ public class CursosController : ControllerBase
         return await _sender.Send(command, cancellationToken);
 
     }
+
+    [HttpPut("{id}")]
+    public async Task<ActionResult<Result<Guid>>> CursoUpdate([FromBody] CursoUpdateRequest request, Guid id, CancellationToken cancellationToken)
+    {
+        var command = new CursoUpdateCommandRequest(request, id);
+        var resultado = await _sender.Send(command, cancellationToken);
+
+        return resultado.IsSuccess ? Ok(resultado.Value) : BadRequest();
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<ActionResult<Unit>> CursoDelete(Guid id, CancellationToken cancellationToken)
+    {
+        var command = new CursoDeleteCommandRequest(id);
+        var resultado = await _sender.Send(command, cancellationToken);
+        return resultado.IsSuccess ? Ok(resultado.Value) : BadRequest();
+    }
+
 
     [HttpGet("{id}")]
     public async Task<IActionResult> CursoGet(Guid id, CancellationToken cancellationToken)

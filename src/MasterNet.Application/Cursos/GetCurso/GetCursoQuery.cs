@@ -35,6 +35,7 @@ public class GetCursoQuery
                         .Include(x => x.Instructores)
                         .Include(x => x.Precios)
                         .Include(x => x.Calificaciones)
+                        .Include(x => x.Photos)
                         .ProjectTo<CursoDto>(_mapper.ConfigurationProvider)
                         .FirstOrDefaultAsync();
 
