@@ -13,6 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddApplication();
 builder.Services.AddPersistence(builder.Configuration);
+builder.Services.AddIdentityService(builder.Configuration);
 
 builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection(nameof(CloudinarySettings)));
 builder.Services.AddScoped<IPhotoService, PhotoService>();
@@ -20,12 +21,11 @@ builder.Services.AddScoped<IPhotoService, PhotoService>();
 //builder.Services.AddScoped<IReportService, ReportService>();
 builder.Services.AddScoped(typeof(IReportService<>), typeof(ReportService<>));
 
+builder.Services.AddHttpContextAccessor();
+
 builder.Services.AddControllers();
 
-builder.Services.AddIdentityCore<AppUser>(opt => {
-    opt.Password.RequireNonAlphanumeric = false;
-    opt.User.RequireUniqueEmail = true;
-}).AddRoles<IdentityRole>().AddEntityFrameworkStores<MasterNetDbContext>();
+
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 
@@ -39,6 +39,8 @@ if (app.Environment.IsDevelopment())
    
 }
 
+app.UseAuthentication();
+app.UseAuthorization();
 await app.SeedData();
 app.MapControllers();
 

@@ -1,10 +1,9 @@
-using System.Runtime.InteropServices;
-using Bogus.DataSets;
 using MasterNet.Application.Core;
 using MasterNet.Application.Cursos.CursosCreate;
 using MasterNet.Application.Cursos.GetCursos;
 using MasterNet.Application.Cursos.Update;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using static MasterNet.Application.Cursos.CursoReporteExcel.CursoReporteExcelQuery;
 using static MasterNet.Application.Cursos.CursosCreate.CursosCreateCommand;
@@ -16,6 +15,7 @@ using static MasterNet.Application.Cursos.Update.CursoUpdateCommand;
 namespace MasterNet.WebApi.Controllers;
 
 [ApiController]
+[Authorize]
 [Route("api/cursos")]
 public class CursosController : ControllerBase
 {
