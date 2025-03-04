@@ -1,5 +1,8 @@
+using System.Net;
+using MasterNet.Application.Core;
 using MasterNet.Application.Instructores.GetInstructores;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using static MasterNet.Application.Instructores.GetInstructores.GetInstructoresQuery;
 
@@ -15,13 +18,16 @@ public class InstructoresController : ControllerBase
         _sender = sender;
     }
 
-    public async Task<ActionResult> PaginationInstructor([FromQuery] GetInstructoresRequest request, CancellationToken cancellationToken)
+    [AllowAnonymous]
+    [HttpGet]
+    [ProducesResponseType((int)HttpStatusCode.OK)]
+    public async Task<ActionResult<PagedList<InstructorDto>>> PaginationInstructor([FromQuery] GetInstructoresRequest request, CancellationToken cancellationToken)
     {
         var query = new GetInstructoresQueryRequest {
             InstructorRequest = request
         };
         var resultados = await _sender.Send(query, cancellationToken);
-        return resultados.IsSuccess ? Ok(resultados) : NotFound();
+        return resultados.IsSuccess ? Ok(resultados.Value) : NotFound();
     }    
 
 
